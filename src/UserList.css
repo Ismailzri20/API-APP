@@ -1,0 +1,35 @@
+.user-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.user-card {
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(199, 136, 19, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.user-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 6px rgba(194, 114, 24, 0.3);
+}
+
+.user-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.user-email {
+    font-size: 18px;
+    color: #7a7a77;
+}
+
+.user-phone{
+    color: #7a7a77;
+}
